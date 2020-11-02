@@ -233,7 +233,7 @@ user_pref("javascript.use_us_english_locale",			true);
 
 // PREF: Do not submit invalid URIs entered in the address bar to the default search engine
 // http://kb.mozillazine.org/Keyword.enabled
-user_pref("keyword.enabled",					false);
+user_pref("keyword.enabled",					true);
 
 // PREF: Don't trim HTTP off of URLs in the address bar.
 // https://bugzilla.mozilla.org/show_bug.cgi?id=665580
@@ -267,7 +267,7 @@ user_pref("security.mixed_content.block_display_content",	true);
 
 // PREF: Disable JAR from opening Unsafe File Types
 // http://kb.mozillazine.org/Network.jar.open-unsafe-types
-// CIS Mozilla Firefox 24 ESR v1.0.0 - 3.7 
+// CIS Mozilla Firefox 24 ESR v1.0.0 - 3.7
 user_pref("network.jar.open-unsafe-types",			false);
 
 // CIS 2.7.4 Disable Scripting of Plugins by JavaScript
@@ -281,7 +281,7 @@ user_pref("security.fileuri.strict_origin_policy",		true);
 
 // PREF: Disable Displaying Javascript in History URLs
 // http://kb.mozillazine.org/Browser.urlbar.filter.javascript
-// CIS 2.3.6 
+// CIS 2.3.6
 user_pref("browser.urlbar.filter.javascript",			true);
 
 // PREF: Disable asm.js
@@ -659,12 +659,12 @@ user_pref("network.dns.blockDotOnion",				true);
 
 // PREF: Disable search suggestions in the search bar
 // http://kb.mozillazine.org/Browser.search.suggest.enabled
-user_pref("browser.search.suggest.enabled",			false);
+user_pref("browser.search.suggest.enabled",			true);
 
 // PREF: Disable "Show search suggestions in location bar results"
-user_pref("browser.urlbar.suggest.searches",			false);
+user_pref("browser.urlbar.suggest.searches",			true);
 // PREF: When using the location bar, don't suggest URLs from browsing history
-user_pref("browser.urlbar.suggest.history",			false);
+user_pref("browser.urlbar.suggest.history",			true);
 
 // PREF: Disable SSDP
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1111967
@@ -780,7 +780,7 @@ user_pref("network.cookie.thirdparty.sessionOnly",		true);
 // NOTICE: Private browsing breaks Kerberos authentication
 // NOTICE: Disables "Containers" functionality (see below)
 // NOTICE: "Always use private browsing mode" (browser.privatebrowsing.autostart) disables the possibility to use password manager: https://support.mozilla.org/en-US/kb/usernames-and-passwords-are-not-saved#w_private-browsing
-user_pref("browser.privatebrowsing.autostart",			true);
+user_pref("browser.privatebrowsing.autostart",			false);
 
 // PREF: Do not download URLs for the offline cache
 // http://kb.mozillazine.org/Browser.cache.offline.enable
